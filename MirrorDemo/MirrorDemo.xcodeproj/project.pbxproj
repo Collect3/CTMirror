@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5290AFB19AD5E1C00816BEB /* libCTMirror.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5290AF619AD5DF700816BEB /* libCTMirror.a */; };
+		B53A800219ACBCB900003EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A800119ACBCB900003EAE /* Foundation.framework */; };
+		B53A800419ACBCB900003EAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A800319ACBCB900003EAE /* CoreGraphics.framework */; };
+		B53A800619ACBCB900003EAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A800519ACBCB900003EAE /* UIKit.framework */; };
+		B53A800C19ACBCB900003EAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B53A800A19ACBCB900003EAE /* InfoPlist.strings */; };
+		B53A800E19ACBCB900003EAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A800D19ACBCB900003EAE /* main.m */; };
+		B53A801219ACBCB900003EAE /* MirrorDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A801119ACBCB900003EAE /* MirrorDemoAppDelegate.m */; };
+		B53A801519ACBCB900003EAE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53A801319ACBCB900003EAE /* Main_iPhone.storyboard */; };
+		B53A801819ACBCB900003EAE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53A801619ACBCB900003EAE /* Main_iPad.storyboard */; };
+		B53A801B19ACBCB900003EAE /* MirrorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A801A19ACBCB900003EAE /* MirrorDemoViewController.m */; };
+		B53A801D19ACBCB900003EAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53A801C19ACBCB900003EAE /* Images.xcassets */; };
+		B53A802419ACBCB900003EAE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A802319ACBCB900003EAE /* XCTest.framework */; };
+		B53A802519ACBCB900003EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A800119ACBCB900003EAE /* Foundation.framework */; };
+		B53A802619ACBCB900003EAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A800519ACBCB900003EAE /* UIKit.framework */; };
+		B53A802E19ACBCB900003EAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B53A802C19ACBCB900003EAE /* InfoPlist.strings */; };
+		B53A803019ACBCB900003EAE /* MirrorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A802F19ACBCB900003EAE /* MirrorDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5290AF519AD5DF700816BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5290AF019AD5DF700816BEB /* CTMirror.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B53A7F2819AB2B7400003EAE;
+			remoteInfo = CTMirror;
+		};
+		B5290AF719AD5DF700816BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5290AF019AD5DF700816BEB /* CTMirror.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B53A7F3819AB2B7400003EAE;
+			remoteInfo = CTMirrorTests;
+		};
+		B5290AF919AD5E0E00816BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5290AF019AD5DF700816BEB /* CTMirror.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B53A7F2719AB2B7400003EAE;
+			remoteInfo = CTMirror;
+		};
+		B53A802719ACBCB900003EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53A7FF619ACBCB900003EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53A7FFD19ACBCB900003EAE;
+			remoteInfo = MirrorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5290AF019AD5DF700816BEB /* CTMirror.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CTMirror.xcodeproj; path = ../CTMirror/CTMirror.xcodeproj; sourceTree = "<group>"; };
+		B53A7FFE19ACBCB900003EAE /* MirrorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirrorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53A800119ACBCB900003EAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B53A800319ACBCB900003EAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B53A800519ACBCB900003EAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B53A800919ACBCB900003EAE /* MirrorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MirrorDemo-Info.plist"; sourceTree = "<group>"; };
+		B53A800B19ACBCB900003EAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B53A800D19ACBCB900003EAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B53A800F19ACBCB900003EAE /* MirrorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MirrorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B53A801019ACBCB900003EAE /* MirrorDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirrorDemoAppDelegate.h; sourceTree = "<group>"; };
+		B53A801119ACBCB900003EAE /* MirrorDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorDemoAppDelegate.m; sourceTree = "<group>"; };
+		B53A801419ACBCB900003EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B53A801719ACBCB900003EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B53A801919ACBCB900003EAE /* MirrorDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirrorDemoViewController.h; sourceTree = "<group>"; };
+		B53A801A19ACBCB900003EAE /* MirrorDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorDemoViewController.m; sourceTree = "<group>"; };
+		B53A801C19ACBCB900003EAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B53A802219ACBCB900003EAE /* MirrorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53A802319ACBCB900003EAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B53A802B19ACBCB900003EAE /* MirrorDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MirrorDemoTests-Info.plist"; sourceTree = "<group>"; };
+		B53A802D19ACBCB900003EAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B53A802F19ACBCB900003EAE /* MirrorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53A7FFB19ACBCB900003EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53A800419ACBCB900003EAE /* CoreGraphics.framework in Frameworks */,
+				B53A800619ACBCB900003EAE /* UIKit.framework in Frameworks */,
+				B53A800219ACBCB900003EAE /* Foundation.framework in Frameworks */,
+				B5290AFB19AD5E1C00816BEB /* libCTMirror.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53A801F19ACBCB900003EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53A802419ACBCB900003EAE /* XCTest.framework in Frameworks */,
+				B53A802619ACBCB900003EAE /* UIKit.framework in Frameworks */,
+				B53A802519ACBCB900003EAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5290AF119AD5DF700816BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5290AF619AD5DF700816BEB /* libCTMirror.a */,
+				B5290AF819AD5DF700816BEB /* CTMirrorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53A7FF519ACBCB900003EAE = {
+			isa = PBXGroup;
+			children = (
+				B5290AF019AD5DF700816BEB /* CTMirror.xcodeproj */,
+				B53A800719ACBCB900003EAE /* MirrorDemo */,
+				B53A802919ACBCB900003EAE /* MirrorDemoTests */,
+				B53A800019ACBCB900003EAE /* Frameworks */,
+				B53A7FFF19ACBCB900003EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53A7FFF19ACBCB900003EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53A7FFE19ACBCB900003EAE /* MirrorDemo.app */,
+				B53A802219ACBCB900003EAE /* MirrorDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53A800019ACBCB900003EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B53A800119ACBCB900003EAE /* Foundation.framework */,
+				B53A800319ACBCB900003EAE /* CoreGraphics.framework */,
+				B53A800519ACBCB900003EAE /* UIKit.framework */,
+				B53A802319ACBCB900003EAE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B53A800719ACBCB900003EAE /* MirrorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B53A801019ACBCB900003EAE /* MirrorDemoAppDelegate.h */,
+				B53A801119ACBCB900003EAE /* MirrorDemoAppDelegate.m */,
+				B53A801319ACBCB900003EAE /* Main_iPhone.storyboard */,
+				B53A801619ACBCB900003EAE /* Main_iPad.storyboard */,
+				B53A801919ACBCB900003EAE /* MirrorDemoViewController.h */,
+				B53A801A19ACBCB900003EAE /* MirrorDemoViewController.m */,
+				B53A801C19ACBCB900003EAE /* Images.xcassets */,
+				B53A800819ACBCB900003EAE /* Supporting Files */,
+			);
+			path = MirrorDemo;
+			sourceTree = "<group>";
+		};
+		B53A800819ACBCB900003EAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53A800919ACBCB900003EAE /* MirrorDemo-Info.plist */,
+				B53A800A19ACBCB900003EAE /* InfoPlist.strings */,
+				B53A800D19ACBCB900003EAE /* main.m */,
+				B53A800F19ACBCB900003EAE /* MirrorDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B53A802919ACBCB900003EAE /* MirrorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B53A802F19ACBCB900003EAE /* MirrorDemoTests.m */,
+				B53A802A19ACBCB900003EAE /* Supporting Files */,
+			);
+			path = MirrorDemoTests;
+			sourceTree = "<group>";
+		};
+		B53A802A19ACBCB900003EAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53A802B19ACBCB900003EAE /* MirrorDemoTests-Info.plist */,
+				B53A802C19ACBCB900003EAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53A7FFD19ACBCB900003EAE /* MirrorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53A803319ACBCB900003EAE /* Build configuration list for PBXNativeTarget "MirrorDemo" */;
+			buildPhases = (
+				B53A7FFA19ACBCB900003EAE /* Sources */,
+				B53A7FFB19ACBCB900003EAE /* Frameworks */,
+				B53A7FFC19ACBCB900003EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5290AFA19AD5E0E00816BEB /* PBXTargetDependency */,
+			);
+			name = MirrorDemo;
+			productName = MirrorDemo;
+			productReference = B53A7FFE19ACBCB900003EAE /* MirrorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53A802119ACBCB900003EAE /* MirrorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53A803619ACBCB900003EAE /* Build configuration list for PBXNativeTarget "MirrorDemoTests" */;
+			buildPhases = (
+				B53A801E19ACBCB900003EAE /* Sources */,
+				B53A801F19ACBCB900003EAE /* Frameworks */,
+				B53A802019ACBCB900003EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53A802819ACBCB900003EAE /* PBXTargetDependency */,
+			);
+			name = MirrorDemoTests;
+			productName = MirrorDemoTests;
+			productReference = B53A802219ACBCB900003EAE /* MirrorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53A7FF619ACBCB900003EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MirrorDemo;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Collect3 Pty Ltd";
+				TargetAttributes = {
+					B53A802119ACBCB900003EAE = {
+						TestTargetID = B53A7FFD19ACBCB900003EAE;
+					};
+				};
+			};
+			buildConfigurationList = B53A7FF919ACBCB900003EAE /* Build configuration list for PBXProject "MirrorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B53A7FF519ACBCB900003EAE;
+			productRefGroup = B53A7FFF19ACBCB900003EAE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B5290AF119AD5DF700816BEB /* Products */;
+					ProjectRef = B5290AF019AD5DF700816BEB /* CTMirror.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B53A7FFD19ACBCB900003EAE /* MirrorDemo */,
+				B53A802119ACBCB900003EAE /* MirrorDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B5290AF619AD5DF700816BEB /* libCTMirror.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCTMirror.a;
+			remoteRef = B5290AF519AD5DF700816BEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B5290AF819AD5DF700816BEB /* CTMirrorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CTMirrorTests.xctest;
+			remoteRef = B5290AF719AD5DF700816BEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53A7FFC19ACBCB900003EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53A801819ACBCB900003EAE /* Main_iPad.storyboard in Resources */,
+				B53A801D19ACBCB900003EAE /* Images.xcassets in Resources */,
+				B53A801519ACBCB900003EAE /* Main_iPhone.storyboard in Resources */,
+				B53A800C19ACBCB900003EAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53A802019ACBCB900003EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53A802E19ACBCB900003EAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53A7FFA19ACBCB900003EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53A801B19ACBCB900003EAE /* MirrorDemoViewController.m in Sources */,
+				B53A801219ACBCB900003EAE /* MirrorDemoAppDelegate.m in Sources */,
+				B53A800E19ACBCB900003EAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53A801E19ACBCB900003EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53A803019ACBCB900003EAE /* MirrorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5290AFA19AD5E0E00816BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMirror;
+			targetProxy = B5290AF919AD5E0E00816BEB /* PBXContainerItemProxy */;
+		};
+		B53A802819ACBCB900003EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53A7FFD19ACBCB900003EAE /* MirrorDemo */;
+			targetProxy = B53A802719ACBCB900003EAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B53A800A19ACBCB900003EAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53A800B19ACBCB900003EAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B53A801319ACBCB900003EAE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53A801419ACBCB900003EAE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B53A801619ACBCB900003EAE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53A801719ACBCB900003EAE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B53A802C19ACBCB900003EAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53A802D19ACBCB900003EAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B53A803119ACBCB900003EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B53A803219ACBCB900003EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B53A803419ACBCB900003EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MirrorDemo/MirrorDemo-Prefix.pch";
+				INFOPLIST_FILE = "MirrorDemo/MirrorDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B53A803519ACBCB900003EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MirrorDemo/MirrorDemo-Prefix.pch";
+				INFOPLIST_FILE = "MirrorDemo/MirrorDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B53A803719ACBCB900003EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MirrorDemo.app/MirrorDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MirrorDemo/MirrorDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MirrorDemoTests/MirrorDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B53A803819ACBCB900003EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MirrorDemo.app/MirrorDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MirrorDemo/MirrorDemo-Prefix.pch";
+				INFOPLIST_FILE = "MirrorDemoTests/MirrorDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53A7FF919ACBCB900003EAE /* Build configuration list for PBXProject "MirrorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53A803119ACBCB900003EAE /* Debug */,
+				B53A803219ACBCB900003EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53A803319ACBCB900003EAE /* Build configuration list for PBXNativeTarget "MirrorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53A803419ACBCB900003EAE /* Debug */,
+				B53A803519ACBCB900003EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53A803619ACBCB900003EAE /* Build configuration list for PBXNativeTarget "MirrorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53A803719ACBCB900003EAE /* Debug */,
+				B53A803819ACBCB900003EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53A7FF619ACBCB900003EAE /* Project object */;
+}
